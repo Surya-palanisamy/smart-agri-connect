@@ -1,0 +1,203 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+div img{
+    margin-left:400px;
+    position: relative;
+    
+}
+section h2{
+    font-size: 38px;
+}
+section p{
+    font-size: 23px;
+}
+section a{
+    display: block;
+    border: 1px solid black;
+    padding: 12px;
+    text-align: center;
+}
+header {
+    background: linear-gradient(to right, #1abc9c, #3498db);
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background: linear-gradient(to right, #1abc9c, #3498db);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    
+    width: 100%;
+ 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+input, textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background: linear-gradient(to right, #1abc9c, #3498db);
+    padding: 0.5rem;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #c8e6c9; /* Light green for hover effect */
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+section h2:hover {
+    background: #e0e0e0; /* Slightly darker background on hover */
+}
+
+section#home {
+    text-align: center;
+}
+
+section#home h2 {
+    font-size: 3em;
+    transition: font-size 0.3s ease;
+}
+
+section#home p {
+    font-size: 1.5em;
+    transition: font-size 0.3s ease;
+}
+
+section#features ul {
+    list-style: none;
+    padding: 0;
+}
+
+section#features ul li {
+    margin: 5px 0;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+section#features ul li:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+    color: #4CAF50; /* Highlight color on hover */
+}
+
+section#features ul li a {
+    text-decoration: none;
+    color: #4CAF50;
+    transition: color 0.3s ease;
+}
+
+section#features ul li a:hover {
+    text-decoration: underline;
+    color: #388E3C; /* Darker green for hover effect */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    margin: 5px 0;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    background: #4CAF50;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+form button:hover {
+    background: #45a049;
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+button:hover {
+    background: linear-gradient(to right, #1abc9c, black);
+}
